@@ -1,0 +1,23 @@
+{
+  "name": "dompet-digital-nusantara-web",
+  "version": "1.0.0",
+  "description": "Next.js web app for Dompet Digital Nusantara Personal Finance Management with MySQL",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1",
+    "jspdf": "^2.5.1",
+    "mysql2": "^3.14.3",
+    "next": "^15.5.9",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}
